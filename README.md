@@ -1,8 +1,6 @@
 **Experiments with the Pico library**
 
-The Pico library allows you to call Python modules with JavaScript
-
-[Pico](https://github.com/fergalwalsh/pico)
+The [Pico](https://github.com/fergalwalsh/pico) library allows you to call Python modules with JavaScript
 
 Install Pico `pip install pico`
 
