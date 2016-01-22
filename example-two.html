@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>Pico Example Two</title>
+<link rel="stylesheet" href="assets/css/examples.css">
+<script src="pico/client.js"></script>
+<script>
+  //pico.load("examples");
+  pico.load_as("examples", "ex2")
+  pico.main = function() {
+    var displayMessage = function(message) {
+      document.getElementById('message').innerHTML = message;
+    }
+    ex2.hello("Nathan", displayMessage);
+  }
+</script>
+<div class="container">
+  <div id="message"></div>
+</div>
